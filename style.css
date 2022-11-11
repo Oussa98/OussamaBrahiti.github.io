@@ -1,13 +1,26 @@
+html{
+  width: 100%;
+  overflow-x: hidden;
+  
 
+}
+
+.c{
+  overflow-y: hidden;
+}
 body{
   padding :0;
   margin:0;
   background-color:whitesmoke;
+  overflow-x: hidden;
+  width: 100%;
   
 }
 .main 
   {
-    margin: 50px; /* Add a top margin to avoid content overlay */
+    /* Add a top margin to avoid content overlay */
+    margin: 50px;
+    
   }
 
   
@@ -52,17 +65,39 @@ li a:hover:not(.active) {
 
   #check{display: none;}
 
+/*##################################################################*/
+/*##################################################################*/
+/*##################################################################*/
+/* .p-images
+{
+  width :300px;
+  height: auto;
+} */
 
-
+.p-pic{
+  border: black;
+  border-width: 3px;
+  border-style: ridge;
+  /* margin: 10px; */
+  height: auto;
+  width: 60%;
+}
 /*##################################################################*/
 /*##################################################################*/
 /*##################################################################*/
 
-
+.di{
+  display: flex;
+  padding-right: 5px;
+}
+.name{
+  margin-top: 70px;
+  margin-left: 10px;
+}
 .who-pic{
   margin-top:10px;
   border-radius: 50%;
-  padding: 20px;
+  padding: 15px;
   }
 
  .who-bio > p{
@@ -130,14 +165,14 @@ li a:hover:not(.active) {
     /* justify-items: stretch; */
     /* flex-direction: column; */
   }
-  h3{
-    font-size: x-large;
+  .contact-title{
+    font-size: large;
     display: flex;
     justify-content: center;
   }
   .contact-item{
     width: 100%;
-    padding:5px;
+    padding:0px;
     
     border:1px ridge grey;
     border-radius: 2%;
@@ -146,8 +181,8 @@ li a:hover:not(.active) {
   .contact-info{
     
     display: flex;
-    
     justify-content: center;
+
   }
   .stick-to-bottom{
     position:absolute;
@@ -293,13 +328,22 @@ li a:hover:not(.active) {
     justify-content: center;
     padding :5px;
   }
-  .stick-to-bottom{
+  .index-stick-to-bottom{
     position:absolute;
-    bottom:0;
+    bottom:auto;
     width: 100%;
     }
     .contact-container{
     
       flex-direction: column;
+    }
+
+    .p-pic{
+      border: black;
+      border-width: 3px;
+      border-style: ridge;
+      /* margin: 10px; */
+      height: auto;
+      width: 100%;
     }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +11,12 @@
 
     
 </head>
-<body>
+<body style="width: 100%;">
     <!-- nav -->
     <nav class="top-nav">
         <input type="checkbox" id="check">
         <ul class="top-nav">
-            <li class="top-nav"><a href="index.html">Who am I</a></li>
+            <li class="top-nav"><a href="index.html">Home</a></li>
             <li class="top-nav"><a href="skillz.html">Skills</a></li>
             <li class="top-nav"><a class="active" href="projects.html">Projects</a></li>
             <li class="top-nav"><a href="contact.html">Contact</a></li>
@@ -24,12 +24,41 @@
     </nav>
     <!-- section -->
     <main class="main">
+        <p style="font-size:x-large; padding:10px; padding-top: 55px;">projects that I made that I am proud of.</p>
+        
+        <hr>
         <div class="Programming">
             <h2>SCADA System</h2>
-            <div class="item">
-                <div class="ttt">
-                    <h4 class="item-title">Matlab</h4>
-                    <img class="item-pic" height="100px" width="100px"src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png" alt="" srcset="">
+            <div class="p-item">
+                <div class="p-ttt">
+
+                    <p>at µtechnologies laboratory. the wonderful team there and I did a SCADA system to supervise an electrical grid</p>
+                    <ul>
+                        <li>Built a SCADA system in C++ for supervising a simulated electrical grid in Simulink and then imitated the acquisition block by an STM32 board via ethernet</li>
+                    </ul>
+                    <div class="p-images">
+                        <img class="p-pic" src="imgs/IMG_20221103_193220_718.jpg" alt="" srcset="">
+                        <p>soldering and testing of pcbs</p>
+                        <img class="p-pic" src="imgs/IMG_20221110_103518_277.jpg" alt="" srcset="">
+                        <p>programming the stm32 in stm32cubeide to be compatible with modbus tcp/ip</p>
+                        
+                        <img class="p-pic" src="imgs/IMG_20221110_103434_861.jpg" alt="" srcset="">
+                        <p>the stm32 board</p>
+                    </div>
+                    
+                </div>
+                
+                <p class="item-body"></p> 
+
+            </div>
+            
+            <h2>Distributeur des emails</h2>
+            <div class="p-item">
+                <div class="p-ttt">
+                    <p>The project was a response to a competition organized by my university, making an app that solves a problem it was facing.</p>
+                    <ul><li> Built an email sender using python, pyqt5, smtplib, openxslx that takes the tests and exams scores from the teacher’s Excel file and send them to the students by email. A feature my university didn’t have at the time.</li></ul>
+                    <div class="p-images"><img class="p-pic" src="imgs/email.png" alt="" srcset=""></div>
+                    <p>you can find the source code at <a href="https://github.com/Oussa98/Distributeur-des-email">Distributeur-des-email</a> </p>
                 </div>
                 
                 <p class="item-body"></p> 
@@ -42,7 +71,7 @@
         </div>
     </main>
     <!-- footer -->
-    <footer class="footer stick-to-bottom">
+    <footer class="footer ">
         <!-- <div class="quote">
                 <h5 style="color:green">Today's Quote</h5>
                 <div class="body-quote">
@@ -54,11 +83,11 @@
                 </div>
         </div> -->
         <div class="socials">
-            <a href="linkedin.com"><i id="linkedin" class="social bi-linkedin"></i></a>
-            <a href="youtube.com"><i id="youtube" class="social bi-youtube"></i></a>
-            <a href="facebook.com"><i id="facebook" class="social bi-facebook"></i></a>
-            <a href="twitter.com"><i id="twitter" class="social bi-twitter"></i></a>
-            <a href="github.com"><i id="github" class="social bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/oussama-brahiti"><i id="linkedin" class="social bi-linkedin"></i></a>
+            <!-- <a href="youtube.com"><i id="youtube" class="social bi-youtube"></i></a> -->
+            <!-- <a href="facebook.com"><i id="facebook" class="social bi-facebook"></i></a> -->
+            <a href="https://twitter.com/AtaraxiaVision"><i id="twitter" class="social bi-twitter"></i></a>
+            <a href="https://github.com/Oussa98"><i id="github" class="social bi-github"></i></a>
 
         </div> 
         <!-- <div class="newsletter">
@@ -68,7 +97,7 @@
 
         </div>  -->
         <div class="foot">
-            <p>made with love</p>
+            <p>made with  &nbsp; <i class="bi-cup"></i> &nbsp; and &nbsp; <i class = "bi-heart"></i></p>
         </div>
         
     </footer>
